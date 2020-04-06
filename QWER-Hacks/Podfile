@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'QWER-Hacks Project' do
+  use_frameworks!
+    
+  # Pods for QWER-Hacks Project
+  
+    pod 'Firebase/MLVision'
+    pod 'Firebase/MLVisionLabelModel'
+    pod 'Firebase/Firestore'
+
+end
